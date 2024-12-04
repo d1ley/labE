@@ -1,2 +1,16 @@
-# Project exclude paths
-/dist/
+# Игнорировать node_modules
+node_modules/
+
+# Игнорировать папку dist, куда компилируется TypeScript
+dist/
+
+# Игнорировать все файлы, относящиеся к IDE
+.vscode/
+.idea/
+
+# Игнорировать скомпилированные файлы TypeScript
+*.js
+*.map
+
+# Игнорировать файлы конфигурации NPM
+package-lock.json
